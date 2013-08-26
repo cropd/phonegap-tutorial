@@ -36,6 +36,7 @@ var app = {
     var self = this;
     this.store = new MemoryStore(function() {
         self.renderHomeView();
+        self.showAlert('Store Initialized', 'Info');
     });
 }
 
