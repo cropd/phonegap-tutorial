@@ -19,6 +19,7 @@ var app = {
         } else {
             alert('bla');
         }
+        navigator.notification.beep(2);
     },
 
     initialize: function() {
